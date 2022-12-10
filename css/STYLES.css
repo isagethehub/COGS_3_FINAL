@@ -1,0 +1,206 @@
+
+
+
+
+
+
+/* Main image background */
+.mainimage {
+    height:100vh;
+    background: url('../images/C0E25F3A-2D08-4686-BE45-113FB658426E-9CF54F3B-83A5-4382-87DF-9CD4B4D0E2E3\ 2.JPG');
+    background-size:cover;
+    position:relative;
+}
+
+.hero_title {
+   text-align: center;
+   padding-top: 170px;
+   font-family: 'Abril Fatface', cursive;
+   font-size: 75px;
+   font-weight: regular;
+   color: beige;
+
+}
+
+.hero{
+    position: relative;
+    width:100%;
+    height: 100;
+    background: white;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space right;
+    
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px
+}
+
+nav ul li a{
+    color:#000;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: regular;
+} 
+
+nav ul li a:hover{
+    color:beige;
+}
+
+.aboutmetitle{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    text-align: center;
+   
+}
+.card-about{
+    text-align: center;
+    font-size: 50px;
+}
+
+.p1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: beige;
+    text-shadow: #000;
+   text-align: center;
+   opacity: 1;
+
+}
+
+.description{
+    background-color: rgb(241, 137, 45);
+   margin-top: 80px;
+  
+   margin-right: 100px;
+   margin-left: 100px;
+   border-radius: 10px;
+}
+
+.aboutmee{
+    height: 100%;
+    width: 100%;
+}
+
+.firstaboutme{
+    background: url('../images/california\ poppy2.jpeg')
+}
+
+.p1{ 
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-bottom: 500px;
+
+}
+
+.contact-section{
+    box-sizing: border-box;
+    font-family: 'Roboto Slab';
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-info{
+    color: #000;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+.contact-info i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.contact-form{
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.contact-info, .contact-form{
+    flex: 1;
+}
+
+.contact-form h3{
+    color:#000;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.bodycontact{
+    min-height: 100vh;
+    background: url(../images/sky2.jpeg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form .text-box{
+    background: #fff;
+    color: #000;
+    border: black;
+    width: clalc(50% - 10px);
+    height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    opacity: .5;
+}
+
+.contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+
+.contact-form textarea{
+    background: #fff;
+    color: #000;
+    border: black;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    opacity: .5;
+}
+
+.contact-form .send-btn{
+    background: #000;
+    float: right;
+    color: #fff;
+    border:#000;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+
+}
+
+.contact-form .send-btn:hover{
+    background: rgb(111, 94, 241);
+}
